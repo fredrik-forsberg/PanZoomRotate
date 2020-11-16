@@ -89,11 +89,12 @@ class ImageCanvasExtendedFunc(ImageCanvas):
         # Events
 
         self.bind('r', self.callback_reset)
-
-        self.bind_all("+", self.callback_zoom_key)
-        self.bind_all("<KP_Add>", self.callback_zoom_key)
-        self.bind_all("-", self.callback_zoom_key)
-        self.bind_all("<KP_Subtract>", self.callback_zoom_key)
+        
+        if zoom:
+            self.bind_all("+", self.callback_zoom_key)
+            self.bind_all("<KP_Add>", self.callback_zoom_key)
+            self.bind_all("-", self.callback_zoom_key)
+            self.bind_all("<KP_Subtract>", self.callback_zoom_key)
 
         self.bind_all("<Control-o>", self.callback_open_file)
 
