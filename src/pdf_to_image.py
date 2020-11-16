@@ -23,7 +23,7 @@ def pdf_to_image(pdf_path, dpi=300, page_index=0, alpha_channel=False):
     :param pdf_path: str: The path to the PDF-file
     :param dpi: int: Dots per inch. Resolution of the returned image (default=300)
     :param page_index: int: The page of the PDF to read as an image. The first page corresponds to index 0 (default=0)
-    :param alpha_channel: bool:
+    :param alpha_channel: bool: Whether to retrieve the alpha channel (transparency) of the image (default=False)
     :return: np.array: OpernCV image
     :raise: RuntimeError: If pdf_path does not refer a file
     """
