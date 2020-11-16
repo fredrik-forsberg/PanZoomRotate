@@ -18,7 +18,7 @@ def affine_image_transform(image, affine_transform_matrix, size, background_colo
     """
     Returns an image based on the provided affine transform matrix
 
-    :param image: np.aray: OpenCV image
+    :param image: np.array: OpenCV image
     :param affine_transform_matrix: np.array: Numpy array of shape (3, 3). Describes an affine transform from R^2 to R^2
     :param size: tuple: (rows, columns); Integers
     :param background_color: tuple: Background colour. (B, G, R); Integers 0-255
