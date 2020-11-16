@@ -98,7 +98,7 @@ class ImageCanvas(tk.Canvas):
                 # For Windows
                 self.bind_all("<MouseWheel>", self.callback_mousewheel_windows)
             else:
-                # For iOS or other OS
+                # For MacOS or other OS
                 self.bind_all("<MouseWheel>", self.callback_mousewheel_other)
 
     def update(self):
