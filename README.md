@@ -49,17 +49,20 @@ Det finns två sätt att komma igång med PanZoomRotate:
 
 * Zooma - Scrollhjulet eller "+"/"-"-tangenterna
 
-* Rotera - Drag med höger musknapp <br/>
+* Rotera - Drag med höger musknapp
+<br/>
 
 
 * Global skärmdumpstangent - Förinställd som "§" (nedanför Escape) men kan ändras i menyn (se nedan)
 
-* Öppna meny med alternativ - M, Alt-, eller Menytangenten <br/>
+* Öppna meny med alternativ - M, Alt-, eller Menytangenten
+<br/>
 
 
 * Fullskärm - F
 
-* Återställ vy - R <br/>
+* Återställ vy - R
+<br/>
 
 
 * Kopiera bild till Urklipp - Ctrl+C    (Om det stöds av operativsystemet)
@@ -104,17 +107,20 @@ There are two ways to start using PanZoomRotate:
 
 * Zoom - Scroll wheel or "+"/"-"-keys
 
-* Rotate - Right click and drag <br/>
+* Rotate - Right click and drag
+<br/>
 
 
 * Global screenshot hotkey - Preset to "§" but can be changed in the menu during runtime (se below)
 
-* Options menu - M, Alt-, or Menu-key <br/>
+* Options menu - M, Alt-, or Menu-key
+<br/>
 
 
 * Fullscreen - F
 
-* Reset view - R <br/>
+* Reset view - R
+<br/>
 
 
 * Copy image to clipboard - Ctrl+C    (If supported by the system)
