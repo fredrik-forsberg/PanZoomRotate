@@ -36,13 +36,13 @@ class MainWindow(tk.Tk):
         Zoom - Scroll wheel or "+"/"-"-keys
         Rotate - Right click and drag
 
-        Global screenshot hotkey - Preset to Ctrl+"<" but can be changed in the menu during runtime (se below)
+        Global screenshot hotkey - Preset to "§" but can be changed in the menu during runtime (se below)
         Options menu - M, Alt-, or Menu-key
 
         Fullscreen - F
         Reset view - R
 
-        Copy image to clipboard + Ctrl+C    (If supported by the system)
+        Copy image to clipboard - Ctrl+C    (If supported by the system)
         Paste image from clipboard - Ctrl+V
         Open image or PDF - Ctrl+O
         Save image - Ctrl+S
