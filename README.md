@@ -22,7 +22,7 @@
 ## 1. Svenska &#127480;&#127466;
 
 ### 1.1. Generell information
-Banläggningsprogram för orientering saknar stöd för rotation av kartan, något som behövs för att kunna bedöma olika vägval. PanZoomRotate skrevs för att lösa det problemet, men kan givetvis användas i andra sammanhang där en bildfil eller själva bildskärmen behöver panoreras, zoomas och/eller roteras.
+Banläggningsprogram för orientering (som OCAD och PurplePen) saknar stöd för rotation av kartan, något som behövs för att kunna bedöma olika vägval. PanZoomRotate skrevs för att lösa det problemet, men kan givetvis användas i andra sammanhang där en bildfil eller själva bildskärmen behöver panoreras, zoomas och/eller roteras.
 <br/>
 
 ### 1.2. Användning
@@ -80,7 +80,7 @@ Det finns två sätt att komma igång med PanZoomRotate:
 ## 2. English &#127468;&#127463;
 
 ### 2.1. General information
-[Orienteering](https://en.wikipedia.org/wiki/Orienteering) course setting software lack the option to rotate the map, a feature which is sorely missed while evaluating route choices. PanZoomRotate was written as a way of solving this problem, but it can of course be used in any situation where the screen itself or an image from a file needs to be panned, zoomed, and/or rotated.
+[Orienteering](https://en.wikipedia.org/wiki/Orienteering) course setting software (such as OCAD and PurplePen) lack the option to rotate the map, a feature which is sorely missed while evaluating route choices. PanZoomRotate was written as a way of solving this problem, but it can of course be used in any situation where the screen itself or an image from a file needs to be panned, zoomed, and/or rotated.
 <br/>
 
 ### 2.2. Setup
