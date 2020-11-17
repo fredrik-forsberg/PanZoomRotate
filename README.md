@@ -32,7 +32,7 @@ Det finns två sätt att komma igång med PanZoomRotate:
     Om du använder en Windows-dator kan du helt enkelt ladda ner [PanZoomRotate.exe](../../raw/main/PanZoomRotate.exe) och dubbelklicka på filen när den har laddats ner klart, sedan är du igång!
     
     (EXE-filen genererades från Python-koden med hjälp av Python-paketet [PyInstaller](https://pypi.org/project/pyinstaller/))
-<br/>
+
     
 * **Mer avancerat - Med Python:**
     
@@ -42,23 +42,32 @@ Det finns två sätt att komma igång med PanZoomRotate:
     * [Pillow](https://pypi.org/project/Pillow/)
     * [pynput](https://pypi.org/project/pynput/)
     * [PyMuPDF](https://pypi.org/project/PyMuPDF/)
-<br/>
 
 
 ### 1.3. Funktioner
 * Panorera - Drag med vänster musknapp
+
 * Zooma - Scrollhjulet eller "+"/"-"-tangenterna
+
 * Rotera - Drag med höger musknapp
-<br/>
+
+
 * Global skärmdumpstangent - Förinställd som "§" (nedanför Escape) men kan ändras i menyn (se nedan)
+
 * Öppna meny med alternativ - M, Alt-, eller Menytangenten
-<br/>
+
+
 * Fullskärm - F
+
 * Återställ vy - R
-<br/>
+
+
 * Kopiera bild till Urklipp - Ctrl+C    (Om det stöds av operativsystemet)
+
 * Klistra in bild från Urklipp - Ctrl+V
+
 * Öppna bild- eller PDF-fil - Ctrl+O
+
 * Spara bild - Ctrl+S
 
 
@@ -78,7 +87,7 @@ There are two ways to start using PanZoomRotate:
     If you are using a Windows computer you can simply download [PanZoomRotate.exe](../../raw/main/PanZoomRotate.exe) and double click the file once the download is finished, then you are done!
     
     (The EXE-file was generated from the Python code using the Python package [PyInstaller](https://pypi.org/project/pyinstaller/))
-<br/>
+
     
 * **More advanced - Using Python:**
     
@@ -88,20 +97,30 @@ There are two ways to start using PanZoomRotate:
     * [Pillow](https://pypi.org/project/Pillow/)
     * [pynput](https://pypi.org/project/pynput/)
     * [PyMuPDF](https://pypi.org/project/PyMuPDF/)
-<br/>
+
 
 ### 2.3. Features
 * Pan - Left click and drag
+
 * Zoom - Scroll wheel or "+"/"-"-keys
+
 * Rotate - Right click and drag
-<br/>
+
+
 * Global screenshot hotkey - Preset to "§" but can be changed in the menu during runtime (se below)
+
 * Options menu - M, Alt-, or Menu-key
-<br/>
+
+
 * Fullscreen - F
+
 * Reset view - R
-<br/>
+
+
 * Copy image to clipboard - Ctrl+C    (If supported by the system)
+
 * Paste image from clipboard - Ctrl+V
+
 * Open image or PDF - Ctrl+O
+
 * Save image - Ctrl+S
