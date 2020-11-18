@@ -14,7 +14,7 @@
 
     2.2. [Setup](#22-setup)
 
-    2.3. [Features](###23-features)
+    2.3. [Features](#23-features)
 
 <br/>
 <br/>
@@ -75,6 +75,7 @@ Det finns två sätt att komma igång med PanZoomRotate:
 
 
 <br/>
+***
 <br/>
 
 ## 2. English &#127468;&#127463;
