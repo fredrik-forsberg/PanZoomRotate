@@ -1,5 +1,7 @@
 # PanZoomRotate
 
+![Example GIF](./readme_image1.gif)
+
 1. [Svenska &#127480;&#127466;](#1-svenska-)
 
     1.1. [Generell information](#11-generell-information)
@@ -75,7 +77,9 @@ Det finns två sätt att komma igång med PanZoomRotate:
 
 
 <br/>
+
 ***
+
 <br/>
 
 ## 2. English &#127468;&#127463;
@@ -124,7 +128,7 @@ There are two ways to start using PanZoomRotate:
 <br/>
 
 
-* Copy image to clipboard - Ctrl+C    (If supported by the system)
+* Copy image to clipboard - Ctrl+C    (If supported by the operating system)
 
 * Paste image from clipboard - Ctrl+V
 
