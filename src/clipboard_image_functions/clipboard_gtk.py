@@ -5,7 +5,7 @@
     File name: clipboard_gtk.py
     Author: Fredrik Forsberg
     Date created: 2020-11-11
-    Date last modified: 2020-11-11
+    Date last modified: 2022-01-11
     Python Version: 3.8
 """
 
@@ -19,8 +19,6 @@ import warnings
 # GTK
 import gi
 gi.require_version("Gtk", "3.0")
-warnings.filterwarnings("ignore", category=gi.PyGIDeprecationWarning)  # Not sure if these suppressions work properly
-warnings.filterwarnings("ignore", category=gi.PyGIWarning)
 from gi.repository import Gtk, Gdk, GdkPixbuf, GLib
 
 

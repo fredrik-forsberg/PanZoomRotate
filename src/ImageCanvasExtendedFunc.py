@@ -5,12 +5,11 @@
     File name: ImageCanvasExtendedFunc.py
     Author: Fredrik Forsberg
     Date created: 2020-11-11
-    Date last modified: 2020-11-11
+    Date last modified: 2022-01-11
     Python Version: 3.8
 """
 
 import os
-import sys
 import numpy as np
 import cv2
 import tkinter as tk
@@ -82,7 +81,7 @@ class ImageCanvasExtendedFunc(ImageCanvas):
                          centered_zoom=centered_zoom, centered_rotation=centered_rotation,
                          rotate_nonresponsive_radius_fraction=rotate_nonresponsive_radius_fraction, *args, **kwargs)
 
-        self.filechooser_dir = os.path.dirname(os.path.abspath(sys.argv[0]))
+        self.filechooser_dir = os.path.abspath(os.getcwd())
 
         self.text_id = -1
 

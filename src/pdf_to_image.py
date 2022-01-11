@@ -5,7 +5,7 @@
     File name: pdf_to_image.py
     Author: Fredrik Forsberg
     Date created: 2020-11-11
-    Date last modified: 2020-11-11
+    Date last modified: 2022-01-04
     Python Version: 3.8
 """
 
@@ -30,8 +30,8 @@ def pdf_to_image(pdf_path, dpi=300, page_index=0, alpha_channel=False):
     # Based on a StackOverflow answer by JJPty and edited by Vishal Singh ( https://stackoverflow.com/a/55480474 )
     # and a comment regarding DPI by Josiah Yoder on the aforementioned answer
     doc = PyMuPDF.open(pdf_path)
-    png_bytes = doc.loadPage(page_index).getPixmap(matrix=PyMuPDF.Matrix(dpi/72, dpi/72),
-                                                   alpha=alpha_channel).getPNGData()
+    png_bytes = doc.load_page(page_index).get_pixmap(matrix=PyMuPDF.Matrix(dpi/72, dpi/72),
+                                                   alpha=alpha_channel).tobytes()
     doc.close()
     return cv2.imdecode(np.frombuffer(png_bytes, np.uint8), cv2.IMREAD_COLOR)
 

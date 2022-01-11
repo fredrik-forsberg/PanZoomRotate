@@ -5,7 +5,7 @@
     File name: ImageControl.py
     Author: Fredrik Forsberg
     Date created: 2020-11-11
-    Date last modified: 2020-11-11
+    Date last modified: 2022-01-03
     Python Version: 3.8
 """
 
@@ -101,7 +101,7 @@ class ImageControl:
 
         :return: None
         """
-        if self.core_image.size == 0:
+        if self.core_image.size == 0 or 0 in self.core_image.shape[:2]:
             return
         size = self.size
         img_shape = self.core_image.shape
