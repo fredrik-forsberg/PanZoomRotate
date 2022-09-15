@@ -101,7 +101,7 @@ class ImageControl:
 
         :return: None
         """
-        if self.core_image.size == 0 or 0 in self.core_image.shape[:2]:
+        if (0 in self.size) or (self.core_image.size == 0) or (0 in self.core_image.shape[:2]):
             return
         size = self.size
         img_shape = self.core_image.shape
